@@ -31,23 +31,23 @@ if dia_semana == 'Monday' or dia_semana == 'segunda-feira':
     print('='*80)
     title = print(f'Lista de Presença virtual-{segunda}')
     print('=' * 80)
-if dia_semana == 'Tuesday' or dia_semana == 'terça-feira':
+elif dia_semana == 'Tuesday' or dia_semana == 'terça-feira':
     print('=' * 80)
     title = print(f'Lista de Presença virtual-{terça}')
     print('=' * 80)
-if dia_semana == 'Wednesday' or dia_semana == 'quarta-feira':
+elif dia_semana == 'Wednesday' or dia_semana == 'quarta-feira':
     print('=' * 80)
     title = print(f'Lista de Presença virtual-{quarta}')
     print('=' * 80)
-if dia_semana == 'Thursday' or dia_semana == 'quinta-feira':
+elif dia_semana == 'Thursday' or dia_semana == 'quinta-feira':
     print('=' * 80)
     title = print(f'Lista de Presença virtual-{quinta}')
     print('=' * 80)
-if dia_semana == 'Friday' or dia_semana == 'sexta-feira':
+elif dia_semana == 'Friday' or dia_semana == 'sexta-feira':
     print('=' * 80)
     title = print(f'Lista de Presença virtual-{sexta}')
     print('=' * 80)
-if dia_semana == 'Saturday' or dia_semana == 'sábado':
+else dia_semana == 'Saturday' or dia_semana == 'sábado':
     print('=' * 80)
     title = print(f'Lista de Presença virtual-{sabado}')
     print('=' * 80)
